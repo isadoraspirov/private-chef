@@ -2,17 +2,17 @@
 
 ## Business Goals
 
-• Showcase chef skills, sample menus, and event experience.
-• Attract multiple client types: private clients, event hosts and corporate clients.
-• Get clients to book private chef services.
-• Build credibility though photos, professional presentation and testimonials.
+- Showcase chef skills, sample menus, and event experience.
+- Attract multiple client types: private clients, event hosts and corporate clients.
+- Get clients to book private chef services.
+- Build credibility though photos, professional presentation and testimonials.
 
 ## User Goals
 
-• Easily find a chef for a specific event or need.
-• View pricing, availability, and menus.
-• Get a quick response or book online.
-• Feel confident that the chef is reliable, high-quality, and professional.
+- Easily find a chef for a specific event or need.
+- View pricing, availability, and menus.
+- Get a quick response or book online.
+- Feel confident that the chef is reliable, high-quality, and professional.
 
 ## Strategy
 
@@ -22,17 +22,17 @@ The goal of the private chef website is to create a professional, visually engag
 
 ### Must Have 
 
-• Homepage with a compelling value proposition and "Book Now" CTA
-• Menu page with interactive sample menus and pricing packages
-• Booking/inquiry form with calendar and service selection
-• About page with chef bio, experience, and credentials
-• Gallery with high-quality event photos
-• Contact page with phone, email, and possibly WhatsApp integration
+- Homepage with a compelling value proposition and "Book Now" CTA
+- Menu page with interactive sample menus and pricing packages
+- Booking/inquiry form with calendar and service selection
+- About page with chef bio, experience, and credentials
+- Gallery with high-quality event photos
+- Contact page with phone, email, and possibly WhatsApp integration
 
 ## Nice to Have 
 
-• Client testimonials section
-• Availability calendar or booking automation
+- Client testimonials section
+- Availability calendar or booking automation
 
 ## Structure
 
@@ -46,30 +46,30 @@ The user will visit the site because they are looking for a private chef for an 
 
 Information Architecture:
 
-• Homepage: Overview, booking CTA, intro to chef.
-• About: Chef bio and service philosophy.
-• Menu: Sample menus, dishes with pricing.
-• Gallery: Photos of events, food, setup.
-• Booking: Form with calendar, service type, and contact info.
-• Contact: WhatsApp, Email, Phone.
+- Homepage: Overview, booking CTA, intro to chef.
+- About: Chef bio and service philosophy.
+- Menu: Sample menus, dishes with pricing.
+- Gallery: Photos of events, food, setup.
+- Booking: Form with calendar, service type, and contact info.
+- Contact: WhatsApp, Email, Phone.
 
 ## Skeleton
 
 Priority Content:
 
-• High Priority (Top-level navigation + hero section):
+- High Priority (Top-level navigation + hero section):
 
 1. Booking CTA
 2. Menus
 3. Event types serviced
 4. Contact options
 
-• Medium Priority (secondary sections or deeper pages):
+- Medium Priority (secondary sections or deeper pages):
 
 1. Chef’s bio
 2. Gallery
 
-• Lower Priority (footer):
+- Lower Priority (footer):
 
 1. Blog, social links, privacy policy
 
@@ -81,13 +81,11 @@ Navigation:
 
 ## Surface
 
-•	Color Palette: Neutral base (white, soft grey) + rich accent (deep green, wine red, gold, or charcoal).
+-	Color Palette: Neutral base (white, soft grey) + rich accent (deep green, wine red, gold, or charcoal).
+-	Typography: Elegant serif for headings (e.g., Playfair Display), clean sans-serif for body (e.g., Lato or Open Sans).
+-	Imagery: High-resolution food and event photos, candid behind-the-scenes shots, testimonials with real client photos.
 
-•	Typography: Elegant serif for headings (e.g., Playfair Display), clean sans-serif for body (e.g., Lato or Open Sans).
-
-•	Imagery: High-resolution food and event photos, candid behind-the-scenes shots, testimonials with real client photos.
-
-•	Design Elements: 
+-	Design Elements: 
 1. Smooth animations (hover effects, fading transitions).
 2. Subtle textures or overlays for elegance.
 3. Icons for dietary labels, event types, or service features.
@@ -101,16 +99,16 @@ Description: Individuals or families hosting a private dinner or party at home o
 
 Needs: 
 
-• Hire a private chef for a dinner, celebration, or event
-• View available sample menus or customize one
-• Understand pricing and booking process
-• Read testimonials or see past event photos
+- Hire a private chef for a dinner, celebration, or event
+- View available sample menus or customize one
+- Understand pricing and booking process
+- Read testimonials or see past event photos
 
-Stories:
+User Stories:
 
-• As a private client, I want to view sample menus so I can choose a menu that fits my event.
-• As a private client, I want to check pricing and availability so I can book a chef confidently
-• As a private client, I want to customize a menu, so the food matches my preferences and dietary needs
+- As a private client, I want to view sample menus so I can choose a menu that fits my event.
+- As a private client, I want to check pricing and availability so I can book a chef confidently
+- As a private client, I want to customize a menu, so the food matches my preferences and dietary needs
 
 
 2.	Corporate Client 
@@ -119,16 +117,16 @@ Description: A business, gallery, or brand organizing an event (e.g., exhibition
 
 Needs:
 
-• Find a professional chef to cater a formal/informal event
-• View experience with similar events or clients
-• Ensure branding alignment and presentation
-• Request a quote or proposal
+- Find a professional chef to cater a formal/informal event
+- View experience with similar events or clients
+- Ensure branding alignment and presentation
+- Request a quote or proposal
 
 User Stories:
 
-• As a gallery owner, I want to see event experience, so I know the chef can deliver high-end service
-• As a corporate client, I want to get a quote for my event so I can plan the budget accordingly
-• As a business, I want catering that aligns with my brand image to impress my guests
+- As a gallery owner, I want to see event experience, so I know the chef can deliver high-end service
+- As a corporate client, I want to get a quote for my event so I can plan the budget accordingly
+- As a business, I want catering that aligns with my brand image to impress my guests
 
 3.	Venue Manager 
 
@@ -136,12 +134,13 @@ Description: A venue that hosts weddings, parties, or corporate events and seeks
 
 Needs:
 
-• Review set menu options and pricing 
-• Confirm capacity (number of guests)
-• Understand logistics (staffing, kitchen equipment needs, etc)
-• Build a long-term partnership
+- Review set menu options and pricing 
+- Confirm capacity (number of guests)
+- Understand logistics (staffing, kitchen equipment needs, etc)
+- Build a long-term partnership
 
 User Stories:
-• As a venue manager, I want to view standard menus and pricing so I can offer them to my clients
-• As a venue, I want to understand the chef’s service scope so I can determine if it fits our events
-• As a venue, I want to partner with a reliable chef to offer catering packages to our clients
+
+- As a venue manager, I want to view standard menus and pricing so I can offer them to my clients
+- As a venue, I want to understand the chef’s service scope so I can determine if it fits our events
+- As a venue, I want to partner with a reliable chef to offer catering packages to our clients
