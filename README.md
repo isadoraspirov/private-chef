@@ -142,6 +142,6 @@ Needs:
 • Build a long-term partnership
 
 User Stories:
-• As a venue manager, I want to view standard menus and pricing so I can offer them to my clients.
-• As a venue, I want to understand the chef’s service scope so I can determine if it fits our events.
-• As a venue, I want to partner with a reliable chef to offer catering packages to our clients.
+• As a venue manager, I want to view standard menus and pricing so I can offer them to my clients
+• As a venue, I want to understand the chef’s service scope so I can determine if it fits our events
+• As a venue, I want to partner with a reliable chef to offer catering packages to our clients
