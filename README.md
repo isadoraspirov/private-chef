@@ -79,7 +79,7 @@ Navigation:
 ## Surface
 
 -	Color Palette: Neutral base (white, soft grey) + rich accent (deep green, wine red, gold, or charcoal).
--	Typography: Elegant serif for headings (e.g., Playfair Display), clean sans-serif for body (e.g., Lato or Open Sans).
+-	Typography: Elegant serif for headings (e.g., Great Vibes), clean sans-serif for body (e.g., Lato or Open Sans).
 -	Imagery: High-resolution food and event photos, candid behind-the-scenes shots, testimonials with real client photos.
 
 -	Design Elements: 
