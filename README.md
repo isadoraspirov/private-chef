@@ -26,7 +26,6 @@ The goal of the private chef website is to create a professional, visually engag
 - Menu page with interactive sample menus and pricing packages
 - Booking/inquiry form with calendar and service selection
 - About page with chef bio, experience, and credentials
-- Gallery with high-quality event photos
 - Contact page with phone, email, and possibly WhatsApp integration
 
 ## Nice to Have 
@@ -49,7 +48,6 @@ Information Architecture:
 - Homepage: Overview, booking CTA, intro to chef.
 - About: Chef bio and service philosophy.
 - Menu: Sample menus, dishes with pricing.
-- Gallery: Photos of events, food, setup.
 - Booking: Form with calendar, service type, and contact info.
 - Contact: WhatsApp, Email, Phone.
 
@@ -67,7 +65,6 @@ Priority Content:
 - Medium Priority (secondary sections or deeper pages):
 
 1. Chef’s bio
-2. Gallery
 
 - Lower Priority (footer):
 
@@ -75,7 +72,7 @@ Priority Content:
 
 Navigation:
 
-1. Sticky top navigation bar with: Home | About | Menus | Gallery | Book Now | Contact
+1. Sticky top navigation bar with: Home | About | Menus | Book Now | Contact
 2. Scrollable homepage with anchor links to each section.
 3. Prominent “Book Now” buttons throughout.
 
@@ -86,6 +83,7 @@ Navigation:
 -	Imagery: High-resolution food and event photos, candid behind-the-scenes shots, testimonials with real client photos.
 
 -	Design Elements: 
+
 1. Smooth animations (hover effects, fading transitions).
 2. Subtle textures or overlays for elegance.
 3. Icons for dietary labels, event types, or service features.
@@ -102,7 +100,6 @@ Needs:
 - Hire a private chef for a dinner, celebration, or event
 - View available sample menus or customize one
 - Understand pricing and booking process
-- Read testimonials or see past event photos
 
 User Stories:
 
@@ -118,13 +115,12 @@ Description: A business, gallery, or brand organizing an event (e.g., exhibition
 Needs:
 
 - Find a professional chef to cater a formal/informal event
-- View experience with similar events or clients
 - Ensure branding alignment and presentation
 - Request a quote or proposal
 
 User Stories:
 
-- As a gallery owner, I want to see event experience, so I know the chef can deliver high-end service
+- As a gallery owner, I want to see the menus, so I know the chef can deliver high-end service
 - As a corporate client, I want to get a quote for my event so I can plan the budget accordingly
 - As a business, I want catering that aligns with my brand image to impress my guests
 
