@@ -1,32 +1,35 @@
 /* Google Fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font: "Inter Tight", sans-serif;
-    --secondary-font: "Great Vibes", cursive;
-    --primary-color: #231610; /* Dark espresso for base text or UI elements */
-    --secondary-color: #d2ac84; /* Warm beige for backgrounds or containers */
-    --highlight-color: #4c89a1; /* Slate blue for buttons/links */
-    --highlight-color-light: #85adc0; /* Sky blue for hover or light accents */
+  --primary-font: "Inter Tight", sans-serif;
+  --secondary-font: "Great Vibes", cursive;
+  --primary-color: #231610; /* Dark espresso for base text or UI elements */
+  --secondary-color: #d2ac84; /* Warm beige for backgrounds or containers */
+  --highlight-color: #4c89a1; /* Slate blue for buttons/links */
+  --highlight-color-light: #85adc0; /* Sky blue for hover or light accents */
 }
 
 body {
-    font-family: var(--primary-font);
-}
-
-h1 {
-    font-family: var(--secondary-font);
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar */
+
+.navbar {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
 .navbar .container-fluid {
   position: relative;
   padding: 1.5rem;
   background-color: var(--highlight-color-light);
   box-shadow: 0 2px 2px #231610;
+  margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -45,27 +48,89 @@ h1 {
   z-index: 1040; /* Make sure it sits above the brand */
 }
 
-/* Carousel */
+/* Header */
 
 #header {
-  padding: 0;
-  margin: 0;
-}
-
-.carousel {
-  width: 100vw;
   margin-top: 0;
+  padding-top: 0;
 }
 
-.carousel-img {
-  height: 955px;
-  object-fit: cover;
+h1 {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+}
+
+.header-video-wrapper {
+  background-color: var(--secondary-color);
+}
+
+.video-container {
+  max-width: 350px;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+.video-styled {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+/* About Chef */
+.about-chef-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0;
+  gap: 2rem;
+  background-color: var(--secondary-color); /* warm beige background */
+}
+
+.about-chef-img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-chef-text {
+  flex: 1;
+  min-width: 280px;
+  max-width: 600px;
+  color: var(--primary-color);
+}
+
+.about-chef-text h2 {
+  font-family: var(--secondary-font);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-chef-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Responsive layout for mobile */
 @media (max-width: 768px) {
-  .carousel-img {
-    height: 250px;       /* Smaller height for mobile */
+  .about-chef-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-chef-text {
+    max-width: 100%;
+  }
+
+  .about-chef-img {
+    max-width: 100%;
   }
 }
