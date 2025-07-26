@@ -19,3 +19,20 @@ body {
 h1 {
     font-family: var(--secondary-font);
 }
+
+/* Navbar */
+.navbar .container-fluid {
+  position: relative;
+  padding: 1rem;
+  background-color: var(--highlight-color-light);
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--primary-color)
+}
