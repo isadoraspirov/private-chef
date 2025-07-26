@@ -21,10 +21,12 @@ h1 {
 }
 
 /* Navbar */
+
 .navbar .container-fluid {
   position: relative;
   padding: 1.5rem;
   background-color: var(--highlight-color-light);
+  box-shadow: 0 2px 2px #231610;
 }
 
 .navbar-brand {
@@ -41,4 +43,29 @@ h1 {
 
 .navbar-toggler {
   z-index: 1040; /* Make sure it sits above the brand */
+}
+
+/* Carousel */
+
+#header {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel {
+  width: 100vw;
+  margin-top: 0;
+}
+
+.carousel-img {
+  height: 955px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 250px;       /* Smaller height for mobile */
+  }
 }
