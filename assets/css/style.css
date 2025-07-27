@@ -134,6 +134,21 @@ main {
   padding-top: 0;
 }
 
+/* Video */
+
+.video-section {
+  background-color: var(--secondary-color); 
+}
+
+.video-element {
+  width: 100%;
+  max-width: 400px; 
+  aspect-ratio: 8 / 14;
+  margin-right: 40rem;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 
 /* About Chef */
 .about-chef {
