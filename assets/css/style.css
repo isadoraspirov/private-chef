@@ -23,10 +23,17 @@ body {
 
 .custom-button-filled {
     border: 1px solid var(--primary-color);
-    background-color: var(--gold-tint);
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 0;
 }
+
+.custom-button-filled:hover{
+  transform: scale(1.2);
+  color: var(--primary-color);
+  background-color: var(--gold-tint);
+}
+
 
 /* Navbar */
 
@@ -60,6 +67,11 @@ body {
   z-index: 1040; /* Make sure it sits above the brand */
 }
 
+nav .nav-link:hover{
+  transform: scale(1.2);
+  color: var(--gold-tint);
+}
+
 /* Header */
 
 #header {
@@ -72,33 +84,34 @@ body {
 .header-text h1 {
   font-family: var(--tertiary-font);
   margin-bottom: 4rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
-.header-text {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-family: var(--primary-font);
+.header-text p {
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 .image-container {
-  max-width: 700px;
+  max-width: 100%;
   width: 100%;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .img-hero {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
-  margin-top: 0;
-  padding-top: 0;
   display: block;
 }
 
+.header-text {
+  max-width: 500px;
+  margin-left: 0;
+  text-align: left;
+  font-family: var(--primary-font);
+}
 
 /* Carousel */
 
@@ -110,20 +123,21 @@ body {
 }
 
 .carousel-inner {
-  aspect-ratio: 3 / 2; 
-  max-width: 800px;
+  aspect-ratio: 4 / 2; 
+  max-width: 700px;
   margin: 0 auto;
+  margin-bottom: 8rem;
 }
 
 .carousel-inner img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
 .quote {
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 0.5;
   text-align: center;
   font-family: var(--tertiary-font);
   color: var(--primary-color);
@@ -137,49 +151,42 @@ body {
 }
 
 /* About Chef */
-.about-chef {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  margin: 0;
-  margin-top: 150px;
-  gap: 2rem;
-  background-color: var(--secondary-color);
+
+.image-container {
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .about-chef-img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
-  margin-top: 0;
-  padding-top: 0;
   display: block;
 }
 
 .about-chef-text {
-  flex: 1;
-  min-width: 280px;
-  max-width: 600px;
-  color: var(--primary-color);
-  margin: auto 0;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: 0;
   font-family: var(--primary-font);
+  text-align: left;
 }
 
 .about-chef-text h2 {
   font-family: var(--tertiary-font);
-  font-size: 2.5rem;
-  margin-bottom: 4rem;
-  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  /* You can adjust margins as needed */
 }
 
 .about-chef-text p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.6;
-  margin: auto 0;
-  text-align: center;
 }
+
+
 
 /* Footer */
 
