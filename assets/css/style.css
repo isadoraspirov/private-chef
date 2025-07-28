@@ -16,25 +16,8 @@
 /* Global styles */
 
 body {
-  margin: 0;
-  padding: 0;
+  background-color: var(--secondary-color);
 }
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex: 1; /* takes up all available space */
-}
-
 
 /* Buttons */
 
@@ -81,9 +64,9 @@ main {
 
 #header {
   position: relative;
-  top: -1px;
-  margin-top: 0;
-  padding-top: 0;
+  margin-top: 6rem;
+  padding-top: 2rem;
+  margin-bottom: 200px;
 }
 
 .header-text h1 {
@@ -100,19 +83,11 @@ main {
   font-family: var(--primary-font);
 }
 
-.header-image-wrapper {
-  background-color: #FDFBF5;
-  margin-top: 0;
-  padding-top: 0;
-}
-
 .image-container {
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  margin-top: 0;
-  padding-top: 0;
 }
 
 .img-hero {
@@ -124,26 +99,42 @@ main {
   display: block;
 }
 
-.header-image-wrapper .container {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.header-image-wrapper .row {
-  margin-top: 0;
-  padding-top: 0;
-}
 
 /* Carousel */
 
-.carousel-wrapper {
-  background-color: #fdf6e3; /* light ivory */
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  max-width: 85%;
-  margin-left: auto;
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 18/10; 
 }
 
+.carousel-inner {
+  aspect-ratio: 3 / 2; 
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quote {
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: var(--tertiary-font);
+  color: var(--primary-color);
+}
+
+
+@media (max-width: 768px) {
+  .carousel-inner {
+    max-height: 300px;  /* Optional: shorter on small devices */
+  }
+}
 
 /* About Chef */
 .about-chef {
@@ -153,16 +144,18 @@ main {
   justify-content: center;
   padding: 2rem;
   margin: 0;
+  margin-top: 150px;
   gap: 2rem;
   background-color: var(--secondary-color);
 }
 
 .about-chef-img {
   width: 100%;
-  max-width: 600px;
   height: auto;
   object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 0;
+  padding-top: 0;
+  display: block;
 }
 
 .about-chef-text {
