@@ -162,6 +162,15 @@ nav .nav-link {
 
 /* Menu */
 
+.card-header {
+  font-weight: bold;
+  color: var(--primary-color);
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+}
+
 #menu h2 {
   margin-top: 6rem;
   margin-bottom: 6rem;
