@@ -72,6 +72,11 @@ nav .nav-link:hover{
   color: var(--gold-tint);
 }
 
+nav .nav-link {
+  font-size: 1.25rem;
+  font-family: var(--primary-font);
+}
+
 /* Header */
 
 #header {
@@ -148,13 +153,51 @@ nav .nav-link:hover{
   font-family: var(--tertiary-font);
   font-size: 3rem;
   margin-bottom: 2rem;
-  /* You can adjust margins as needed */
 }
 
 .about-chef-text p {
   font-size: 1.5rem;
   line-height: 1.6;
 }
+
+/* Menu */
+
+#menu h2 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  font-family: var(--tertiary-font);
+  font-size: 3rem;
+}
+
+#menu .card {
+  margin-bottom: 8rem;
+}
+
+.menu-label {
+  font-weight: bold;
+  color: var(--primary-color);
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+}
+
+.list-group-item p {
+  margin: 0.3rem 0 0.5rem;
+  font-size: 1.25rem;
+  font-family: var(--primary-font);
+}
+
+.card-footer {
+  font-weight: bold;
+  color: var(--primary-color);
+  display: block;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+}
+
 
 /* Footer */
 
@@ -167,6 +210,7 @@ nav .nav-link:hover{
 
 #contact h2 {
   font-family: var(--secondary-font);
+  font-size: 3rem;
 }
 
 footer i {
@@ -196,4 +240,32 @@ footer i:hover{
     padding-left: 0;
     max-width: 100%;
   }
+}
+
+@media screen and (min-width: 768px) {
+    /* Make all service cards the same height for consistency */
+    #menu .list-group-item {
+        min-height: 191px;
+    }
+}
+
+/* Large devices */
+@media screen and (min-width: 992px) {
+    #menu .list-group-item {
+        min-height: auto;
+    }
+}
+
+/* xl devices */
+@media screen and (min-width: 1200px) {
+    #menu .list-group-item {
+        min-height: 220px;
+    }
+}
+
+/* xxl devices */
+@media screen and (min-width: 1400px) {
+    #menu .list-group-item {
+        min-height: 195px;
+    }
 }
