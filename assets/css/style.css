@@ -119,8 +119,10 @@ nav .nav-link {
 /* Carousel */
 
 .quote {
-  font-size: 2rem;
+  position: absolute;
+  font-size: 1.2rem;
   text-align: center;
+  padding: 1rem;
   font-family: var(--primary-font);
   color: var(--primary-color);
 }
