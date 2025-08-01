@@ -120,16 +120,17 @@ nav .nav-link {
 
 .quote {
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 1rem;
   font-family: var(--primary-font);
+  font-style: italic;
   color: var(--primary-color);
 }
 
 #carousel {
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   position: relative;
   top: -90px; /* moves it upward */
 }
@@ -144,8 +145,8 @@ nav .nav-link {
 }
 
 .about-chef-text {
-  max-width: 500px;
-  margin-left: auto;
+  max-width: 600px;
+  margin-left: 8rem;
   margin-right: 0;
   font-family: var(--primary-font);
   text-align: left;
@@ -163,6 +164,16 @@ nav .nav-link {
 }
 
 /* Menu */
+
+.card, 
+.card .list-group-item {
+  background-color: var(--secondary-color) !important;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(35, 22, 16, 0.1); 
+}
 
 .card-header {
   font-weight: bold;
@@ -182,6 +193,7 @@ nav .nav-link {
 
 #menu .card {
   margin-bottom: 8rem;
+  background-color: var(--secondary-color);
 }
 
 .menu-label {
