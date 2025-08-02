@@ -251,6 +251,10 @@ nav .nav-link {
   margin-bottom: 18rem;
 }
 
+.booking-header {
+  margin-bottom: 10rem;
+}
+
 .booking-header h1 {
   font-family: var(--tertiary-font);
   margin-bottom: 4rem;
