@@ -76,8 +76,8 @@ nav .nav-link {
 #about-chef {
   position: relative;
   margin-top: 6rem;
-  padding-top: 4rem;
-  margin-bottom: 15rem;
+  padding-top: 8rem;
+  margin-bottom: 10rem;
 }
 
 /* Default layout: side-by-side on desktop */
@@ -199,6 +199,23 @@ nav .nav-link {
 
 /* Menu */
 
+#menu {
+  margin-bottom: 10rem;
+  padding-top: 2rem;
+}
+
+#menu h2 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  font-family: var(--tertiary-font);
+  font-size: 3rem;
+}
+
+#menu .card {
+  margin-bottom: 8rem;
+  background-color: var(--secondary-color);
+}
+
 .card,
 .card .list-group-item {
   background-color: var(--secondary-color) !important;
@@ -224,21 +241,6 @@ nav .nav-link {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-#menu {
-  margin-bottom: 10rem;
-}
-
-#menu h2 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-  font-family: var(--tertiary-font);
-  font-size: 3rem;
-}
-
-#menu .card {
-  margin-bottom: 8rem;
-  background-color: var(--secondary-color);
-}
 
 .menu-label {
   font-weight: bold;
