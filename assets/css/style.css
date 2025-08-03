@@ -26,17 +26,13 @@ html {
 
 /* Navbar */
 
-.navbar {
-  position: fixed;
-  margin-top: -10px;
-}
-
 .navbar .container-fluid {
   position: relative;
   padding: 1.5rem;
   margin-bottom: 0;
   background-color: var(--highlight-color-light);
   box-shadow: 0 2px 2px rgba(35, 22, 16, 0.2);
+  margin-top: -10px;
 }
 
 .navbar-brand {
@@ -54,12 +50,12 @@ html {
   z-index: 1040; /* Make sure it sits above the brand */
 }
 
-nav .nav-link:hover {
+.nav-link:hover {
   transform: scale(1.2);
   color: var(--gold-tint);
 }
 
-nav .nav-link {
+.nav-link {
   font-size: 1.25rem;
   font-family: var(--primary-font);
 }
@@ -241,7 +237,6 @@ nav .nav-link {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-
 .menu-label {
   font-weight: bold;
   color: var(--primary-color);
@@ -317,7 +312,7 @@ nav .nav-link {
 
 #success h1 {
   font-family: var(--tertiary-font);
-  color: var(--primary-color)
+  color: var(--primary-color);
   text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
 }
 
