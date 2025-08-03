@@ -17,6 +17,7 @@
 
 body {
   background-color: var(--secondary-color);
+  padding-top: 70px;
 }
 
 html {
@@ -26,10 +27,8 @@ html {
 /* Navbar */
 
 .navbar {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  position: relative;
-  z-index: 10;
+  position: fixed;
+  margin-top: -10px;
 }
 
 .navbar .container-fluid {
