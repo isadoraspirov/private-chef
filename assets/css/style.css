@@ -331,7 +331,7 @@ nav .nav-link {
 
 .background-wrapper {
   position: relative;
-  background-image: url('../images/success.jpeg'); 
+  background-image: url("../images/success.jpeg"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
