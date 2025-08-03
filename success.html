@@ -100,22 +100,22 @@
       <div class="background-wrapper">
         <div class="overlay"></div>
         <div class="content container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8">
-            <h1 class="display-3">
-              Booking Confirmed <br />
-              Thank You!
-            </h1>
-            <p class="lead">
-              We're excited to create an unforgettable dining experience for
-              you. Our team will reach out soon to finalize the details. We'll
-              contact you within 24 hours to confrim menu and final details.
-              Until then, feel free to explore our menu or get in touch with any
-              special requests.
-            </p>
-            <a href="index.html" class="btn custom-button-outline mb-5"
-              >Return to the home page</a
-            >
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+              <h1 class="display-3">
+                Booking Confirmed <br />
+                Thank You!
+              </h1>
+              <p class="lead">
+                We're excited to create an unforgettable dining experience for
+                you. Our team will reach out soon to finalize the details. We'll
+                contact you within 24 hours to confrim menu and final details.
+                Until then, feel free to explore our menu or get in touch with
+                any special requests.
+              </p>
+              <a href="index.html" class="btn custom-button-outline mb-5"
+                >Return to the home page</a
+              >
             </div>
           </div>
         </div>
@@ -172,5 +172,28 @@
       src="https://kit.fontawesome.com/030b39ca87.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+      document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+          link.addEventListener("click", function (e) {
+            let section = document.querySelector(e.target.getAttribute("href"));
+            if (section) {
+              e.preventDefault(); // Prevent default anchor click behavior
+              let navbarHeight =
+                document.querySelector(".navbar-toggler").offsetHeight;
+              window.scroll({
+                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                behavior: "smooth",
+              });
+              document
+                .querySelector(".navbar-collapse")
+                .classList.remove("show"); // Collapse navbar
+            }
+          });
+        });
+    </script>
   </body>
 </html>
