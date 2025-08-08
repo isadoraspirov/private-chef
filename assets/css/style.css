@@ -76,7 +76,6 @@ html {
   margin-bottom: 10rem;
 }
 
-/* Default layout: side-by-side on desktop */
 .header-text-wrapper {
   position: relative;
   z-index: 2;
@@ -90,7 +89,7 @@ html {
 }
 
 /* Responsive layout: text over image on small screens */
-@media (max-width: 767.98px) {
+@media (max-width: 390px) {
   .row.position-relative {
     position: relative;
   }
@@ -118,7 +117,7 @@ html {
   }
 }
 
-.header-text h1 {
+.header-text h2 {
   font-family: var(--tertiary-font);
   margin-bottom: 4rem;
   font-size: 3rem;
@@ -178,7 +177,6 @@ html {
 
 .quote {
   position: absolute;
-  font-size: 1.5rem;
   text-align: center;
   padding: 1rem;
   font-family: var(--primary-font);
@@ -210,6 +208,7 @@ html {
 #menu .card {
   margin-bottom: 8rem;
   background-color: var(--secondary-color);
+  width: 100% !important;
 }
 
 .card,
@@ -261,6 +260,7 @@ html {
   font-family: var(--primary-font);
   font-size: 1.25rem;
 }
+
 
 /* Booking */
 
@@ -436,3 +436,5 @@ footer i:hover {
     min-height: 195px;
   }
 }
+
+
