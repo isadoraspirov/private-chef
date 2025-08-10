@@ -38,6 +38,8 @@
   <body class="d-flex flex-column min-vh-100">
     
     <!-- Navbar -->
+
+    <!--fixed-top: fixes the navbar at the top of the viewport so it stays visible when scrolling-->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid position-relative">
         <!-- Centered brand -->
@@ -45,6 +47,8 @@
           class="navbar-brand position-absolute start-50 translate-middle-x"
           href="index.html"
           >Chef Spirov</a>
+          <!-- navbar-toggler: hamburger button that toggles the navbar collapse
+                - ms-auto: applies left margin auto, pushing the button to the right side of the navbar-->
         <button
           class="navbar-toggler ms-auto"
           type="button"
@@ -86,6 +90,7 @@
     <main>
       <header id="header" class="container section">
         <div class="row position-relative">
+          <!-- header-text-wrapper: positioning the header text content inside this column-->
           <div class="col-12 col-xl-6 header-text-wrapper">
             <div class="header-text">
               <h1 class="display-3">Experience the Art of Private Dining</h1>
@@ -199,7 +204,8 @@
         <div class="row position-relative">
           <div class="col-12 col-xl-6 header-text-wrapper">
             <div class="header-text">
-              <h1 class="display-3">About Chef</h1>
+              <h2 class="display-3">About Chef</h2>
+              <!-- my-4: applies margin on the vertical axis (top and bottom)-->
               <p class="my-4">
                 With over a decade of culinary experience across Europe and
                 beyond, Chef Blaze is a master of international cuisine, known
@@ -321,6 +327,7 @@
                 </li>
               </ul>
               <div class="card-footer">
+                <!--mb-0: removes the default bottom margin from the paragraph -->
                 <p class="mb-0">£85p.p</p>
               </div>
             </div>
