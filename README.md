@@ -171,6 +171,25 @@ Responsive Navigation Bar – Fixed at the top of the page and fully responsive.
 - jQuery: Supports JavaScript functionality to ensure smooth interactions, including the automatic collapsing of the Bootstrap mobile navbar when navigating to in-page links.
 - Images: All external images were generated using AI, except for the chef’s portrait, which is a real photograph.
 
+## Testing
+
+### Manual Testing
+
+Testing of the home page. 
+
+The image have loaded correctly and the buttom "explore menu" goes directly to the correct menu section. The carousel images have loaded correctly and the interactive carousel works. The menu section looks as expected and the hover effect works.
+
+The responsive grid works in tablet and mobile screens 
+
+### Automated testing with Lighthouse
+
+### HTML and CSS validation
+
+The code has been validate using the W3C tools:
+
+[W3C Markup Validation - HTML] https://validator.w3.org/ 
+[W3C CSS Validation] https://jigsaw.w3.org/css-validator/
+
 ## Deployment
 
 This project is hosted on GitHub Pages, a free service that publishes websites directly from a GitHub repository.
