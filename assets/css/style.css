@@ -41,7 +41,7 @@ html {
   top: 0.5rem;
   transform: translateX(-50%); /* center the brand */
   font-family: var(--secondary-font);
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--primary-color);
   pointer-events: none; /* prevents blocking toggler clicks */
 }
@@ -86,35 +86,6 @@ html {
   margin: 0 auto;
   text-align: center;
   padding: 2rem;
-}
-
-/* Responsive layout: text over image on small screens */
-@media (max-width: 390px) {
-  .row.position-relative {
-    position: relative;
-  }
-
-  .header-text-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    z-index: 2;
-  }
-
-  .header-text {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-  }
-
-  .image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
 }
 
 .header-text h2 {
@@ -208,7 +179,7 @@ html {
 #menu .card {
   margin-bottom: 8rem;
   background-color: var(--secondary-color);
-  width: 100% !important;
+  /* width: 100% !important; */
 }
 
 .card,
@@ -355,6 +326,11 @@ html {
 
 /* Footer */
 
+footer {
+  display: block; 
+  position: relative; 
+}
+
 #contact {
   background-color: var(--highlight-color-light);
   text-align: center;
@@ -380,66 +356,142 @@ footer i:hover {
   color: var(--gold-tint);
 }
 
-/* Responsive layout for mobile */
+/* Responsive layout Tablet */
 
-/* Tablet */
-
-@media (max-width: 576px) {
-  .header-text h1 {
-    font-size: 2rem;
+@media (max-width: 768px) {
+  #header .image-container,
+  #about-chef .image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
   }
 
-  .header-text p {
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  .home-img {
-    top: 80px;
-    left: 50px;
+@media (max-width: 768px) {
+  #header .image-container img,
+  #about-chef .image-container img {
+    width: 100%;  
+    max-width: 500px; 
+    height: auto;
   }
 }
 
 /* Mobile */
 
-@media (max-width: 480px) {
-  body {
+@media (max-width: 390px) {
+  
+  #header .header-text,
+  #about-chef .header-text {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #header .header-text h1,
+  #about-chef .header-text h2,
+  #menu > .row > .col-12.text-center > h2 {
+    font-size: 1.8rem;  
+    line-height: 1.2;
+  }
+
+  #header .header-text p,
+  #about-chef .header-text p {
+    font-size: 1rem;    
+  }
+
+  #header .header-text .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  #header .image-container,
+  #about-chef .image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+  }
+
+  #header .image-container img,
+  #about-chef .image-container img {
+    width: 100%;  
+    max-width: 290px; 
+    height: auto;
+  }
+
+  #menu .card .card-header {
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+
+  }
+
+  #menu .card {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #menu .card-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+  }
+
+  #menu .list-group-item {
+    padding: 0.5rem 1rem;
+  }
+
+  #menu .menu-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.25rem;
     font-size: 1rem;
   }
-}
 
-@media (max-width: 390px) {
-  .home-img {
-    top: 40px;
-    left: 20px;
+  #menu .list-group-item p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
   }
-}
 
+  #menu .card-footer p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #menu img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 0px;
+  }
+
+}
 @media screen and (min-width: 768px) {
-  /* Make all service cards the same height for consistency */
-  #menu .list-group-item {
-    min-height: 191px;
+  #menu .card {
+    min-height: 500px; 
+    display: flex;
+    flex-direction: column;
+  }
+  #menu .card .list-group {
+    flex-grow: 1; 
+  }
+  #menu .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
   }
 }
 
-/* Large devices */
 @media screen and (min-width: 992px) {
-  #menu .list-group-item {
-    min-height: auto;
+  #menu .card {
+    min-height: 520px;
   }
 }
 
-/* xl devices */
 @media screen and (min-width: 1200px) {
-  #menu .list-group-item {
-    min-height: 220px;
+  #menu .card {
+    min-height: 540px;
   }
 }
 
-/* xxl devices */
 @media screen and (min-width: 1400px) {
-  #menu .list-group-item {
-    min-height: 195px;
+  #menu .card {
+    min-height: 560px;
   }
 }
