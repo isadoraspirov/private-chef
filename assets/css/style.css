@@ -7,10 +7,10 @@
   --primary-font: "Inter Tight", sans-serif;
   --secondary-font: "Great Vibes", cursive;
   --tertiary-font: "Lora", serif;
-  --primary-color: #231610; /* Dark espresso for base text or UI elements */
-  --secondary-color: #fdfbf5; /* light ivory for backgrounds or containers */
-  --highlight-color: #4c89a1; /* Slate blue for buttons/links */
-  --highlight-color-light: #85adc0; /* Sky blue for hover or light accents */
+  --primary-color: #231610; /* Dark espresso */
+  --secondary-color: #fdfbf5; /* light ivory */
+  --highlight-color: #4c89a1; /* Slate blue */
+  --highlight-color-light: #85adc0; /* Sky blue */
   --gold-tint: #f6e8b1; /* lighter gold */
 }
 /* Global styles */
@@ -47,7 +47,7 @@ html {
 }
 
 .navbar-toggler {
-  z-index: 1040; /* Make sure it sits above the brand */
+  z-index: 1040; /* ensure it sits above the brand */
 }
 
 .nav-link:hover {
