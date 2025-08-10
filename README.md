@@ -177,14 +177,14 @@ This project is hosted on GitHub Pages, a free service that publishes websites d
 
 Steps to deploy:
 
-1 - Open the repository for this project on GitHub.
-2 - Click the Settings tab at the top of the page.
-3 - From the left-hand menu, under Code and automation, select Pages.
+1. Open the repository for this project on GitHub.
+2. Click the Settings tab at the top of the page.
+3. From the left-hand menu, under Code and automation, select Pages.
     In the Build and deployment section:
     Source → Deploy from a branch
     Branch → main
     Folder → / (root)
-4 - Click Save.
-5 - Return to the Code tab and wait a few minutes while GitHub builds and publishes the site.
-6 - Once the process is complete, go to the Environments section on the right-hand side of the repository page.
-7 - Click github-pages, then select View deployment to open the live site.
+4. Click Save.
+5. Return to the Code tab and wait a few minutes while GitHub builds and publishes the site.
+6. Once the process is complete, go to the Environments section on the right-hand side of the repository page.
+7. Click github-pages, then select View deployment to open the live site.
