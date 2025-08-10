@@ -402,6 +402,13 @@ footer i:hover {
 }
 
 /* Mobile */
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 390px) {
   .home-img {
     top: 40px;
