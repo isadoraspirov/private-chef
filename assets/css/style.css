@@ -155,12 +155,16 @@ html {
   color: var(--primary-color);
 }
 
-#carousel {
+.quote h3 {
+  font-size: 1.5rem;
+}
+
+ #carousel {
   padding-top: 90px;
   padding-bottom: 100px;
   position: relative;
   top: -90px; /* moves it upward */
-}
+} 
 
 /* Menu */
 
@@ -412,6 +416,11 @@ footer i:hover {
     width: 100%;  
     max-width: 290px; 
     height: auto;
+  }
+
+  .quote h3 {
+    font-size: 1rem;
+    text-align: center;
   }
 
   #menu .card .card-header {
