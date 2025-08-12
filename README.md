@@ -187,8 +187,8 @@ The responsive grid works in tablet and mobile screens
 
 The code has been validate using the W3C tools:
 
-[W3C Markup Validation - HTML] https://validator.w3.org/ 
-[W3C CSS Validation] https://jigsaw.w3.org/css-validator/
+[W3C Markup Validation - HTML](https://validator.w3.org/) 
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 
 ## Deployment
 
