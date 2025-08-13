@@ -6,7 +6,7 @@ The Chef Spirov website is a concept project created to demonstrate the design, 
 
 The purpose is to present how a private chef could showcase skills, menu, and booking options through a clean, responsive, and visually appealing online presence. While the site content is inspired by real-world service scenario, is not connected to an actual business and is intended for portfolio and esucational purpose only.
 
-This project focuses on:
+**This project focuses on:**
 
 - Presenting a strong value proposition.
 - Organizing clear navigation for various client types.
@@ -66,7 +66,7 @@ Information Architecture:
 
 ## Skeleton
 
-Priority Content:
+**Priority Content:**
 
 - High Priority (Top-level navigation + hero section):
 
@@ -82,7 +82,7 @@ Priority Content:
 
 1. Blog, social links, privacy policy
 
-Navigation:
+**Navigation:**
 
 1. Sticky top navigation bar with: Home | About | Menus | Book Now | Contact
 2. Scrollable homepage with anchor links to each section.
@@ -90,8 +90,8 @@ Navigation:
 
 ## Surface
 
--	Color Palette: Neutral base (light ivory) + rich accent (sky blue).
--	Typography: Elegant serif for headings (Lora), clean sans-serif for body (Inter Tight).
+-	Color Palette: Neutral base (light ivory) + rich accent (sky blue) + effect of (lighter gold).
+-	Typography: Elegant serif for headings (Playfair Display), clean sans-serif for body (Inter Tight) and Great Vibes cursive for logo.
 -	Imagery: High-resolution food and chef photos.
 
 -	Design Elements: 
@@ -140,11 +140,39 @@ User Stories:
 
 Responsive Navigation Bar – Fixed at the top of the page and fully responsive. Clicking a menu item smoothly scrolls to the corresponding section, while "Book Now" opens a dedicated booking page with an enquiry form. After submission, users are redirected to a success page confirming their booking request.
 
+![Navbar](assets/images/navbar.png) 
+
 - Home Page: Image of Chef Spirov preparing a dish, paired with a short, engaging service message and a prominent CTA button inviting visitors to explore the menu. Image carousel showcasing the chef’s signature dishes.
+
+![Homepage](assets/images/homepage.png)
+
+- Homepage Carousel – An autoplay slideshow showcasing high-quality images of Chef Spirov’s signature dishes. A single fixed message beneath the carousel communicates the chef’s essence and invites
+
+![Carousel](assets/images/carousel1.png)
+
 - About Chef: High-quality portrait of the chef cooking, with an accompanying biography describing his expertise, training, and unique style.
+
+![Aboutchef](assets/images/aboutchef.png)
+
 - Menu: Interactive headers with hover effects for each menu category. Each section includes a dish image followed by a breakdown of the starter, main course, and dessert. A footer section displaying pricing details.
-- Contact Section: Located in the footer with the chef’s contact details and social media links, making it easy for clients to connect.
+
+![Menu](assets/images/menu.png)
+
+- Booking Page Carousel – An autoplay slideshow featuring elegant dining imagery, with a message setting an exclusive and welcoming tone for visitors preparing to book.
+
+![Bookingcarousel](assets/images/bookingcarousel.png)
+
 - Booking (Book Now): Dedicated booking enquiry page featuring a form with fields for visitor details, and a message field where clients can specify order preferences or ask questions. A submit button sends the enquiry and redirects users to a success page confirming that their request has been received.
+
+![Bookingform](assets/images/bookingenquiry.png)
+
+Booking Success Page – A confirmation page displayed after submitting the booking form, featuring a full-width background image of an elegantly set dining table. A clear confirmation message reassures visitors that their booking request has been received, with options to return to the homepage or continue exploring the site.
+
+![Success](assets/images/successpage.png)
+
+- Contact Section: Located in the footer with the chef’s contact details and social media links, making it easy for clients to connect.
+
+![Footercontact](assets/images/contact.png)
 
 ## Tecnologies Used
 
