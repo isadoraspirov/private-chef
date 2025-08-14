@@ -1,9 +1,7 @@
 /* Google Fonts import */
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:wght@300&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* CSS Variables */
-
 :root {
   --primary-font: "Inter Tight", sans-serif;
   --secondary-font: "Great Vibes", cursive;
@@ -14,8 +12,8 @@
   --highlight-color-light: #85adc0; /* Sky blue */
   --gold-tint: #f6e8b1; /* lighter gold */
 }
-/* Global styles */
 
+/* Global styles */
 body {
   background-color: var(--secondary-color);
   padding-top: 70px;
@@ -26,7 +24,6 @@ html {
 }
 
 /* Navbar */
-
 .navbar .container-fluid {
   position: relative;
   padding: 1.5rem;
@@ -40,20 +37,15 @@ html {
   position: absolute;
   left: 50%;
   top: 0.5rem;
-  transform: translateX(-50%); /* center the brand */
+  transform: translateX(-50%);
   font-family: var(--secondary-font);
   font-size: 3rem;
   color: var(--primary-color);
-  pointer-events: none; /* prevents blocking toggler clicks */
+  pointer-events: none;
 }
 
 .navbar-toggler {
-  z-index: 1040; /* ensure it sits above the brand */
-}
-
-.nav-link:hover {
-  transform: scale(1.2);
-  color: var(--gold-tint);
+  z-index: 1040;
 }
 
 .nav-link {
@@ -61,8 +53,12 @@ html {
   font-family: var(--primary-font);
 }
 
-/* Header and About Section */
+.nav-link:hover {
+  transform: scale(1.2);
+  color: var(--gold-tint);
+}
 
+/* Header and About Section */
 #header {
   position: relative;
   margin-top: 6rem;
@@ -89,7 +85,8 @@ html {
   padding: 2rem;
 }
 
-.header-text h1, h2 {
+.header-text h1,
+.header-text h2 {
   font-family: var(--main-font);
   margin-bottom: 4rem;
   font-size: 3rem;
@@ -103,7 +100,6 @@ html {
 }
 
 /* Image */
-
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -112,7 +108,6 @@ html {
 }
 
 /* Buttons */
-
 .custom-button-filled {
   border: 1px solid var(--primary-color);
   background-color: var(--secondary-color);
@@ -146,7 +141,6 @@ html {
 }
 
 /* Carousel */
-
 .quote {
   position: absolute;
   text-align: center;
@@ -160,15 +154,14 @@ html {
   font-size: 1.5rem;
 }
 
- #carousel {
+#carousel {
   padding-top: 90px;
   padding-bottom: 100px;
   position: relative;
-  top: -90px; /* moves it upward */
-} 
+  top: -90px;
+}
 
 /* Menu */
-
 #menu {
   margin-bottom: 10rem;
 }
@@ -202,7 +195,6 @@ html {
   font-family: var(--primary-font);
   font-size: 1.25rem;
   transition: all 0.3s ease;
-  
 }
 
 .card-header:hover {
@@ -236,9 +228,7 @@ html {
   font-size: 1.25rem;
 }
 
-
 /* Booking */
-
 #booking {
   position: relative;
   margin-top: 10rem;
@@ -278,9 +268,7 @@ html {
   font-size: 1.5rem;
 }
 
-
 /* Success */
-
 #success {
   margin-top: 0;
 }
@@ -288,7 +276,7 @@ html {
 #success h1 {
   font-family: var(--main-font);
   color: var(--primary-color);
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
 #success p {
@@ -301,7 +289,7 @@ html {
 
 .background-wrapper {
   position: relative;
-  background-image: url("../images/success.webp"); 
+  background-image: url("../images/success.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -328,10 +316,9 @@ html {
 }
 
 /* Footer */
-
 footer {
-  display: block; 
-  position: relative; 
+  display: block;
+  position: relative;
 }
 
 #contact {
@@ -360,28 +347,24 @@ footer i:hover {
 }
 
 /* Responsive layout Tablet */
-
 @media (max-width: 768px) {
   #header .image-container,
   #about-chef .image-container {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
+    justify-content: center;
+    align-items: center;
   }
 
-@media (max-width: 768px) {
   #header .image-container img,
   #about-chef .image-container img {
-    width: 100%;  
-    max-width: 500px; 
+    width: 100%;
+    max-width: 500px;
     height: auto;
   }
 }
 
 /* Mobile */
-
 @media (max-width: 390px) {
-  
   #header .header-text,
   #about-chef .header-text {
     text-align: center;
@@ -391,13 +374,13 @@ footer i:hover {
   #header .header-text h1,
   #about-chef .header-text h2,
   #menu > .row > .col-12.text-center > h2 {
-    font-size: 1.25rem;  
+    font-size: 1.25rem;
     line-height: 1.2;
   }
 
   #header .header-text p,
   #about-chef .header-text p {
-    font-size: 1rem;    
+    font-size: 1rem;
   }
 
   #header .header-text .btn {
@@ -408,14 +391,14 @@ footer i:hover {
   #header .image-container,
   #about-chef .image-container {
     display: flex;
-    justify-content: center; 
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
   }
 
   #header .image-container img,
   #about-chef .image-container img {
-    width: 100%;  
-    max-width: 290px; 
+    width: 100%;
+    max-width: 290px;
     height: auto;
   }
 
@@ -428,7 +411,6 @@ footer i:hover {
     font-size: 1.2rem !important;
     font-weight: 600;
     padding-bottom: 0.5rem;
-
   }
 
   #menu .card {
@@ -469,16 +451,17 @@ footer i:hover {
     margin-bottom: 1rem;
     border-radius: 0px;
   }
-
 }
+
+/* Larger screens adjustments */
 @media screen and (min-width: 768px) {
   #menu .card {
-    min-height: 500px; 
+    min-height: 500px;
     display: flex;
     flex-direction: column;
   }
   #menu .card .list-group {
-    flex-grow: 1; 
+    flex-grow: 1;
   }
   #menu .row > [class*='col-'] {
     display: flex;
