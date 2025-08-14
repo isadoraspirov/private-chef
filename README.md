@@ -174,6 +174,20 @@ Booking Success Page – A confirmation page displayed after submitting the book
 
 ![Footercontact](assets/images/contact.png)
 
+## Wireframe
+
+### Desktop Size
+
+![Desktop](assets/images/desktop.png)
+
+### Tablet Size
+
+![Tablet](assets/images/ipad.png)
+
+### Phone
+
+![Phone](assets/images/iphone.png)
+
 ## Tecnologies Used
 
 - HTML & CSS: Core programming languages used to structure and style the website.
@@ -269,19 +283,33 @@ Booking Success Page – A confirmation page displayed after submitting the book
   *Test Action:* Review the About and Services sections for branding and presentation information.  
   *Expected Outcome:* Website content conveys professionalism and ability to tailor catering for brand alignment.
 
-### Automated testing with Lighthouse
+## Automated testing with Lighthouse
 
-### HTML and CSS validation
+![Lighthousetesting](assets/images/lighthouse.png) 
+
+## HTML and CSS validation
 
 The code has been validate using the W3C tools:
 
 - [W3C Markup Validation - HTML](https://validator.w3.org/) 
 
+![HTMLvalidation](assets/images/htmlvalidation.png)
+
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+![CSSvalidation](assets/images/cssvalidation.png)
 
 ## Functionality 
 
 ![Functionality](assets/images/functionality.png) 
+
+**Browser Compatibility**
+
+Verified that the website works correctly on Chrome, Firefox, and Edge/Safari.
+
+**Responsiveness**
+
+Tested the application on a wide range of screen sizes, from very small devices.
 
 ## Deployment
 
@@ -352,3 +380,7 @@ After cloning or forking and cloning, follow these steps to make changes and upd
 ### Automatic Deployment
 
 Any changes pushed to the **main** branch on GitHub will automatically update the live website. This means once you push your changes, GitHub Pages will rebuild and republish the site without needing any extra steps.
+
+### Acknowledgements
+
+Thanks to my mentor, Brian Macharia and tutor, Thomas Cowen, for the guidance, feedback, and support that helped me complete this project.
